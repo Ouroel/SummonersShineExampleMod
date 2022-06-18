@@ -1,0 +1,4 @@
+displayName = Summoner's Shine Example Mod
+author = Yreorel
+version = 0.1
+includePDB = false;

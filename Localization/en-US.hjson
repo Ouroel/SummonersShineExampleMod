@@ -1,0 +1,54 @@
+Mods: {
+	SummonersShineExampleMod: {
+
+		SummonSpecial: {
+			ExamplePassiveSpecialAbilityMinionItem:
+				'''
+				After reloading, enter Manic Blood, increasing the rate of fire by {1}%!
+				This effect can stack once
+				'''
+			ExampleActiveSpecialAbilityMinionItem:
+				'''
+				Press <right> to warp forward in time, damaging all enemies between your starting and ending position!
+				{1} blocks max range
+				'''
+		}
+		
+		SummonSpecialCompressed: {
+			ExamplePassiveSpecialAbilityMinionItem:
+				'''
+				{1}% manic blood stack fire rate
+				'''
+			ExampleActiveSpecialAbilityMinionItem:
+				'''
+				{1} blocks <right> special max warp range
+				'''
+		}
+
+		ProjectileName: {
+			ExamplePassiveSpecialAbilityMinion: Example Passive Special Ability Minion
+			ExampleActiveSpecialAbilityMinion: Example Active Special Ability Minion
+			NegevShot: Example Passive Special Ability Minion Shot
+		}
+
+		ItemName: {
+			ExamplePassiveSpecialAbilityMinionItem: Example Passive Special Ability Minion Item
+			ExampleActiveSpecialAbilityMinionItem: Example Active Special Ability Minion Item
+		}
+		
+		ItemTooltip: {
+			ExamplePassiveSpecialAbilityMinionItem: Summons an Example Passive Special Ability Minion
+			ExampleActiveSpecialAbilityMinionItem: Summons an Example Active Special Ability Minion
+		}
+		
+		BuffName: {
+			ExamplePassiveSpecialAbilityMinionBuff: Example Passive Special Ability Minion
+			ExampleActiveSpecialAbilityMinionBuff: Example Active Special Ability Minion
+		}
+
+		BuffDescription: {
+			ExamplePassiveSpecialAbilityMinionBuff: The Example Passive Special Ability Minion will fight for you!
+			ExampleActiveSpecialAbilityMinionBuff: The Example Active Special Ability Minion will fight for you!
+		}
+	}
+}
