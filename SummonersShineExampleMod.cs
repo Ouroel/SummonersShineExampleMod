@@ -37,17 +37,17 @@ namespace SummonersShineExampleMod
             //return empty if bubble is opening/closing
             if (Frame == 0 || Frame == 3)
                 return null;
+            int yFrame = -1;
             if (ItemType == ItemType<ExampleActiveSpecialAbilityMinionItem>())
             {
-                //compress frames 1/2/4/5 to 0/1/2/3
-                if (Frame > 3)
-                    Frame--;
-                Frame--;
-
-                //returns image. base images off bubble.png scaled 2x.
-                return new(ThoughtBubble, new(Frame * 40, 0, 40, 40));
+                yFrame = 0;
             }
-            return null;
+            if(yFrame == -1)
+                return null;
+            if (Frame > 3)
+                Frame--;
+            Frame--;
+            return new(ThoughtBubble, new(Frame * 40, yFrame * 40, 40, 40));
         }
     }
 }
